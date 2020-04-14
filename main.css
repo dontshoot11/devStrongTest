@@ -14,19 +14,19 @@
 
 @font-face {
     font-family: "panton";
-    src: url("fonts/panton.otf") format("truetype");
+    src: url("../fonts/panton.otf") format("truetype");
     font-style: normal; 
     font-weight: normal; 
 }
 @font-face {
     font-family: "pantonBlack";
-    src: url("fonts/PantonBlack.otf") format("truetype");
+    src: url("../fonts/PantonBlack.otf") format("truetype");
     font-style: normal; 
     font-weight: normal; 
 }
 @font-face {
     font-family: "pantonBold";
-    src: url("fonts/PantonBold.otf") format("truetype");
+    src: url("../fonts/PantonBold.otf") format("truetype");
     font-style: normal; 
     font-weight: normal; 
 }
