@@ -1,0 +1,22 @@
+.about {
+    margin-top: 70rem;
+}
+
+.about__textcontent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40rem;
+    margin-top: 57rem;
+    color: #1d1e1e
+}
+
+.about__text {
+    font-size: 14rem;
+    margin-bottom: 30rem;
+}
+
+.about__text--big {
+    margin-bottom: 0;
+
+
+}

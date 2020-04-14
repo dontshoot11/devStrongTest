@@ -1,0 +1,70 @@
+.header {
+    background: #1d1e1e;
+    color: #ffffff
+
+}
+
+.container--header {
+    display:flex;
+    justify-content: space-between;
+    padding: 15rem 0
+    
+}
+
+.header__navigation-list {
+    display: flex;
+    
+    
+}
+
+.header__navigation-item {
+    margin-right: 67rem;
+    position: relative;
+    font-size:14rem;
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+.header__navigation-item:last-child {
+    margin-right: 0;
+}
+
+.header__navigation-item:before {
+    content:"";
+    margin-right: 33rem;
+   
+    bottom: 7rem;
+    height: 5rem;
+    width: 5rem;
+    border: 1px solid #6a6a6a;
+    border-radius:50%
+}
+
+
+
+.header__navigation-item:first-child:before {
+    display:none
+}
+
+
+
+.header__phone {
+    display: flex
+
+}
+
+.header__phone-description {
+    font-size: 13rem;
+    display: flex;
+    align-items: center;
+}
+
+.header__phone-number {
+    color: #009ee2;
+    margin-left: 31rem;
+    font-size: 20rem;
+    font-family:"pantonBold"
+}

@@ -1,0 +1,64 @@
+.offers {
+    margin-top: 58rem;
+}
+.offers__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30rem;
+
+}
+
+.offers__item {
+    position: relative;
+}
+
+.offers__name {
+  font-family: "pantonBold";
+  font-size: 48rem;
+  
+  color: #fff;
+  
+}
+
+.offers__textcontent {
+    margin-top: 49rem;
+    margin-left: 42rem;
+    position: relative;
+
+}
+
+.offers__date {
+    font-size: 22rem;
+    color: #5dd5fe;
+    position: absolute;
+    top: 18rem;
+    left: 200rem;
+}
+
+.offers__discount {
+    font-size: 95rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color:rgba(255,255,255,0.22);
+    font-family: "pantonBold";
+    margin-bottom: 20rem;
+}
+
+.offers__button {
+    position: absolute;
+    border: none;
+    border-radius:50%;
+    padding:18rem;
+    cursor: pointer;
+    background: url("../img/arrow-white.png") no-repeat center;
+    background-color: #1d1e1e;
+    left: 44rem;
+    bottom: 44rem;
+}
+
+.offers__picture {
+    position: absolute;
+    right: 20rem;
+    bottom: -10rem
+}

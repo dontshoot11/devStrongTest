@@ -1,0 +1,47 @@
+@import url("style/reset.css");
+@import url("style/normalize.css");
+@import url("style/header.css");
+@import url("style/searchbar.css");
+@import url("style/navigation.css");
+@import url("style/menu.css");
+@import url("style/showcase.css");
+@import url("style/news.css");
+@import url("style/subscribe.css");
+@import url("style/offers.css");
+@import url("style/about.css");
+@import url("style/footer.css");
+
+
+@font-face {
+    font-family: "panton";
+    src: url("fonts/panton.otf") format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+}
+@font-face {
+    font-family: "pantonBlack";
+    src: url("fonts/PantonBlack.otf") format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+}
+@font-face {
+    font-family: "pantonBold";
+    src: url("fonts/PantonBold.otf") format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+html {
+    font-size: 1px;
+    font-family: "panton"
+}
+
+.wrapper {
+    height: 100%;
+    width:100%
+}
+
+.container {
+    max-width: 1150rem;
+    margin: 0 auto
+}

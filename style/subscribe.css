@@ -1,0 +1,53 @@
+.subscribe {
+    z-index: 0;
+    background: #efefef;
+    padding-top: 275rem;
+    margin-top: -202rem;
+}
+
+.container--subscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subscribe__heading {
+    font-size: 24rem;
+    font-family: "pantonBold";
+    margin-bottom: 34rem;
+}
+
+.subsribe__form {
+    width: 100%;
+    position: relative;
+    margin-bottom: 43rem;
+}
+
+.subscribe__input {
+    width:100%;
+    padding: 21rem 0rem 21rem 32rem;
+    font-size: 18rem;
+    color: #6f6f6f;
+    border-radius: 3px;
+    border:none;
+    box-shadow: 10px 10px 5px 0px rgba(0,9,21,0.05);
+
+}
+
+.subscribe__button {
+    position:absolute;
+    top:0;
+    right:0;
+    height: 100%;
+    border-radius: 3px;
+    border:none;
+    cursor: pointer;
+    background:linear-gradient(45deg, #3ac0ef, #0187c1);
+    padding: 0 57rem;
+    
+    font-size: 16rem;
+    text-transform: uppercase;
+    color:#fff
+    
+    
+}

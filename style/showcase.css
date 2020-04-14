@@ -1,0 +1,258 @@
+.showcase {
+    border-bottom: 1px solid #efefef;
+    padding-bottom: 100rem;
+    margin-top: 49rem;
+}
+
+.section__button { 
+    border: none;
+    border-radius:50%;
+    padding:12rem;
+    cursor: pointer;
+    background: url("../img/arrow-white.png") no-repeat center;
+    background-color: #1d1e1e;
+}
+
+.showcase__img {
+    max-height: 200rem;
+    display: block;
+}
+
+.section__button--left {
+    transform:rotate(180deg)
+}
+
+.section__textcontent {
+    display: flex;
+    font-family: "pantonBold";
+    text-transform: uppercase;
+    align-items: baseline;
+   
+}
+
+.section__navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 44rem;
+}
+
+.section__heading {
+    font-size: 36rem;
+    font-weight:700;
+    font-family: "pantonBold";
+    text-transform: uppercase;
+
+    
+  
+}
+
+.section__link {
+    font-size: 11rem;
+    font-weight: 300;
+    color: #009ee2;
+    text-decoration: underline;
+    margin-left: 32rem;
+}
+
+.showcase__gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 30rem
+}
+
+.showcase__item {
+    border-radius: 3px;
+    box-shadow: 0px 18px 21px 0px rgba(208,208,208,0.79);
+    border: 1px solid #efefef;
+    padding: 25rem 15rem 15rem 15rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.showcase__name {
+    font-size: 16rem;
+    font-weight: 500;
+    line-height: 20rem;
+   
+
+}
+
+.showcase__price {
+    font-family: "pantonBold";
+    font-weight:700;
+    font-size: 18rem;
+    margin-top: 16rem;
+    margin-bottom: 20rem;
+    position: relative;
+    display: flex;
+    align-items: baseline;
+   
+
+}
+
+.showcase__old-price {
+    color: #6d6d6d;
+    font-size: 14rem;
+    text-decoration: line-through;
+    margin-left: 15rem;
+    display: none
+}
+
+.showcase__profit {
+    position: absolute;
+    bottom: -15rem;
+    left: 0;
+    font-size: 12rem;
+    color:#00963f;
+    font-family: "panton";
+    display: none;
+
+}
+
+
+
+
+.showcase__rating {
+    display: flex;
+    justify-content: space-between;
+}
+.showcase__stars {
+    display: flex;
+    margin-bottom: 17rem;
+    
+}
+
+.star {
+    height: 15rem;
+    width: 15rem;
+    background: url("../img/star.png") no-repeat center;
+    background-size: contain;
+}
+
+.star--empty {
+    background: url("../img/star-empty.png") no-repeat center;
+    background-size: contain;
+
+}
+
+.showcase__heart {
+    height: 20rem;
+    width: 20rem;
+    background: url("../img/heart-blue.png") no-repeat center;
+    background-size: contain;
+    display: none;
+
+}
+
+.showcase__buy {
+    font-family:"pantonBold";
+    font-size: 16rem;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 20rem 55rem;
+    color: #fff;
+    background:linear-gradient(45deg, #0187c1, #3ac0ef);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.showcase__picture-box {
+    margin-bottom: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.showcase__label {
+    position: absolute;
+    color:#fff;
+    font-size:16rem;
+    font-family: "pantonBold";
+    text-transform: "uppercase";
+    border-radius: 3rem;
+    padding: 10rem 15rem;
+    left: 0;
+    display: none
+}
+
+.showcase__item--hit .showcase__label--hit {
+    display: block
+}
+
+.showcase__item--discount .showcase__label--discount {
+    display: block
+}
+
+.showcase__item--discount .showcase__old-price {
+    display: block;
+}
+
+.showcase__item--discount .showcase__profit {
+    display: block;
+}
+
+.showcase__item--favorite .showcase__heart {
+    display: block
+}
+
+.showcase__label--discount {
+    background: #00963f;
+    
+    top: 0;
+
+}
+
+.showcase__label--hit {
+    background:linear-gradient(45deg, #0187c1, #3ac0ef);
+    top: 50rem
+
+
+
+}
+.spotlight {
+    background:linear-gradient(45deg, #0187c1, #3ac0ef);
+    padding: 25rem 50rem 22rem 30rem;
+    position: relative;
+    border: none;
+    overflow: hidden;
+}
+
+.spotlight__heading {
+    font-family: "pantonBold";
+    font-weight:700;
+    font-size: 33rem;
+    color:#fff;
+    margin-bottom: 20rem;
+}
+
+.spotlight__name {
+    color:#4cd2fe;
+    font-weight: 300;
+    font-size: 22rem;
+    max-width: 100rem;
+    line-height: 30rem;
+    margin-bottom: 250rem;
+}
+
+.spotlight__image-box {
+    position: absolute;
+    bottom: 60rem;
+    right: 10rem
+}
+
+.price--spotlight {
+    margin-bottom: 0;
+}
+
+.spotlight__discount {
+    position: absolute;
+    font-size: 95rem;
+    bottom: 145rem;
+    right: 15rem;
+    color:rgba(255,255,255,0.22);
+    font-family: "pantonBold"
+}

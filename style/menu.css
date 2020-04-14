@@ -1,0 +1,278 @@
+.container--menu {
+    display: flex;
+    position: relative;
+    border-bottom: 1px solid #efefef;
+    padding-bottom: 75rem
+}
+
+.menu {
+    margin-top: 30rem;
+   
+    
+}
+
+.catalogue {
+    width: 300rem;
+    box-shadow: 0px 20px 10px -10px rgba(208,208,208,0.79);
+    
+}
+
+
+.catalogue--opened {
+    position:absolute;
+    left:253rem;
+    top:0;
+    z-index: 999;
+    background: #efefef;
+    border-radius: 3px;
+    height: 641rem;
+    display:none;
+    
+
+
+
+}
+
+.catalogue--opened:hover {
+    display: block
+
+}
+
+
+
+.catalogue__item {
+    background: #efefef;
+    margin-bottom: 1rem;
+    padding: 15rem 20rem 15rem 40rem;
+    position: relative;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.catalogue__item:last-child {
+    margin-bottom: 0;
+}
+
+.catalogue__item:hover .catalogue__bridge {
+    display: block
+}
+
+.catalogue__item:hover .catalogue__link {
+    color:#009ee2
+}
+
+.catalogue__item:hover .catalogue__link:before {
+    border:2px solid #009ee2
+}
+.catalogue:hover ~ .catalogue--opened {
+    display: block
+}
+
+.catalogue__link--opened:after {
+    display: none;
+
+}
+
+.catalogue__bridge {
+    position: absolute;
+    z-index: 0;
+    background: #efefef;
+    height: 49rem;
+    width: 60rem;
+    right: -50rem;
+    top: 0;
+    display: none
+
+
+}
+
+.catalogue__link:after {
+    content:"";
+    height: 20rem;
+    width: 20rem;
+    position: absolute;
+    background:url("../img/arrow2.png") no-repeat center;
+    right:15rem;
+}
+
+.catalogue__link:before {
+    content:"";
+    height: 10rem;
+    width: 10rem;
+    position: absolute;
+    border: 2px solid #1d1e1e;
+    border-radius:50%;
+    bottom:19rem;
+    
+    left:15rem;
+}
+
+
+
+
+
+.banner-box {
+    margin-left: 30rem;
+  
+    width:100%
+    
+}
+
+.banner {
+    border-radius: 5px;
+    background:linear-gradient(45deg, #0187c1, #3ac0ef);
+    box-shadow: 0px 20px 10px -10px rgba(208,208,208,0.79);
+    position: relative;
+    
+}
+.banner-main {
+   
+    width: 100%;
+    
+    margin-bottom: 57rem;
+    
+    
+   
+}
+
+.banner__picture {
+    right: 80rem;
+    position: absolute;
+    top:-20rem;
+    overflow: hidden;
+}
+
+.banner__textcontent {
+    padding-top: 69rem;
+    padding-left: 42rem;
+    padding-bottom: 20rem;
+    max-width: 321rem;
+}
+
+.banner__heading {
+    font-size:40rem;
+    font-weight: 700;
+    font-family: "pantonBold";
+    color:#fff;
+    text-transform: uppercase;
+    margin-bottom: 27rem;
+}
+
+.banner__description {
+    font-size:22rem;
+    color: #4bd1fe;
+    font-weight: 300;
+    margin-bottom: 13rem;
+}
+
+.price {
+    font-size: 30rem;
+    color: #fff;
+    margin-bottom: 29rem;
+}
+
+.banner__buy {
+    margin-bottom: 35rem;
+    font-family: "pantonBold";
+    font-size: 16rem;
+    background: #000;
+    color:#fff;
+    border:none;
+    border-radius: 3px;
+    padding: 20rem 49rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.banner__navigation {
+    display: flex
+}
+
+.banner__item {
+    flex-shrink: 0;
+    margin-right: 23rem;
+}
+
+.banner__item:last-child {
+    margin-right: 0;
+}
+
+.banner__button {
+    background: inherit;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    padding: 4rem;
+    display: block;
+    flex-shrink: 0;
+    cursor: pointer;
+    
+    
+
+}
+
+.banner__button--active {
+    border: 2px solid #3dc3f2;
+
+}
+
+.banner-list {
+    display: flex;
+}
+
+.banner--small {
+    margin-right: 55rem;
+    width: 262rem;
+}
+
+.banner--small:last-child {
+    margin-right: 0;
+}
+
+.banner__textcontent--small {
+    padding-top: 26rem;
+    padding-left: 24rem;
+    padding-bottom: 40rem;
+    
+    max-width: 140rem;
+}
+
+.banner__heading--small {
+    font-size: 20rem;
+    margin-bottom: 15rem;
+}
+
+.banner__description--small {
+    font-size: 14rem
+
+}
+
+.banner__picture--rawbite {
+    right: -10rem;
+    top:  10rem;
+}
+
+.banner__picture--book {
+    right: -15rem;
+    top:-5rem
+}
+
+.banner__picture--expert {
+    bottom:0;
+    right:0;
+    
+}
+
+.small-banner__button {
+    position: absolute;
+    bottom: 20rem;
+    left: 30rem;
+    
+    border: none;
+    border-radius:50%;
+    padding:12rem;
+    cursor: pointer;
+    background: url("../img/arrow-white.png") no-repeat center;
+    background-color: #1d1e1e;
+}
+

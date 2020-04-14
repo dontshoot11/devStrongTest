@@ -1,0 +1,97 @@
+.searchbar-section {
+
+    margin-top: 41rem;
+}
+
+.mainlogo {
+    font-size:50rem;
+    color:#0086c0;
+    
+    font-family:"pantonBlack"
+
+}
+
+.searchbar {
+    position: relative;
+}
+
+.searchbar-button {
+    position: absolute;
+    right: 11rem;
+    bottom:10rem;
+    background:url("../img/search.png") no-repeat center;
+    background-size: contain;
+    
+    height: 20rem;
+    width: 20rem;
+    border: none;
+    cursor: pointer;
+}
+
+.searchbar-input {
+    width:556rem;
+    padding: 10rem;
+    font-size: 14rem;
+}
+
+.container--searchbar {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+   
+}
+
+.user-nav__button {
+    height: 26rem;
+    width: 28rem;
+    border: none;
+    margin-right: 69rem;
+    position: relative;
+    cursor: pointer;
+}
+
+.user-nav__button:last-child {
+    margin-right: 0;
+}
+
+.user-nav__button--user {
+    background:url("../img/refer.png") no-repeat center;
+    background-size: contain;
+
+}
+
+.user-nav__button--wishlist {
+    background:url("../img/heart.png") no-repeat center;
+    background-size: contain;
+
+}
+
+.user-nav__button--shoppingcart {
+    background:url("../img/shopping-cart.png") no-repeat center;
+    background-size: contain;
+
+}
+
+.user-nav__button--wishlist:after {
+    content:"3";
+    color:#009ee2;
+    font-weight: bold;
+    font-size: 16rem;
+    position: absolute;
+    top: -5rem;
+    right: -12rem;
+
+}
+
+.user-nav__button--shoppingcart:after {
+    content:"2";
+    color:#009ee2;
+    font-weight: bold;
+    font-size: 16rem;
+    position: absolute;
+    top: -5rem;
+    right: -12rem;
+
+}
+
